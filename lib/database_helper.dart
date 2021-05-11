@@ -33,7 +33,7 @@ Future<Database> db() async {
 //Inserting demo data into database
 void initDB() async {
   var f1 = Product(
-      id: 11,
+      id: 13,
       name: 'Rose',
       kingdom: 'Plantae',
       genus: 'Rosa L.',
@@ -46,7 +46,7 @@ void initDB() async {
       about:
           'Roses are widely used across the world as symbols of love, sympathy or sorrow.The rose was sacred to Venus (mythology). Venus was the Roman goddess of love and beauty');
   var f2 = Product(
-      id: 1,
+      id: 2,
       name: 'Bluebell',
       kingdom: 'Plantae',
       genus: 'Hyacinthoides',
@@ -59,7 +59,7 @@ void initDB() async {
       about:
           'Bluebells are famous as indicator species (markers) for ancient woodland, where they carpet the forest floor in springtime. They grow in shade rather than in sunny areas');
   var f3 = Product(
-      id: 2,
+      id: 3,
       name: 'Buttercup',
       kingdom: 'Plantae',
       genus: 'Ranunculus L.',
@@ -71,7 +71,7 @@ void initDB() async {
       about:
           'It is poisonous to eat for humans and cattle, but when dry the poison is not active.');
   var f4 = Product(
-      id: 3,
+      id: 4,
       name: 'Cowslip',
       kingdom: 'Plantae',
       genus: 'Primula',
@@ -84,7 +84,7 @@ void initDB() async {
       about:
           'This herb was already mentioned by Pliny the Elder for its early blooming attributes. Species from the genus Primula along with other ritual plants played a significant role in the pharmacy and mythology of the Celtic druids, likely as an ingredient of magical potions to increase the absorption of other herbal constituents.Cowslip leaves have been traditionally used in Spanish cooking as a salad green. Uses in English cookery include using the flowers to flavor country wine.');
   var f5 = Product(
-      id: 4,
+      id: 6,
       name: 'Crocus',
       kingdom: 'Plantae',
       genus: 'Crocus L.',
@@ -97,7 +97,7 @@ void initDB() async {
       about:
           'The name of the genus is derived from the Greek κρόκος (krokos). Cultivation and harvesting of Crocus sativus for saffron was first documented in the Mediterranean, notably on the island of Crete');
   var f6 = Product(
-      id: 5,
+      id: 7,
       name: 'Daffodil',
       kingdom: 'Plantae',
       genus: 'Narcissus L.',
@@ -110,7 +110,7 @@ void initDB() async {
       about:
           'The decorative use of narcissi dates as far back as ancient Egyptian tombs, and frescoes at Pompeii.They are mentioned in the King James Version of the Bible as the Rose of Sharon and make frequent appearances in classical literature.');
   var f7 = Product(
-      id: 6,
+      id: 8,
       name: 'Daisy',
       kingdom: 'Plantae',
       genus: 'Bellis',
@@ -123,7 +123,7 @@ void initDB() async {
       about:
           'This daisy may be used as a potherb.Young leaves can be eaten raw in salads or cooked, noting that the leaves become increasingly astringent with age.Flower buds and petals can be eaten raw in sandwiches, soups and salads.It is also used as a tea and as a vitamin supplement.');
   var f8 = Product(
-      id: 9,
+      id: 11,
       name: 'Pansy',
       kingdom: 'Plantae',
       genus: 'Viola',
@@ -137,7 +137,7 @@ void initDB() async {
       about:
           'Because its name means thought, the pansy was chosen as a symbol of Freethought and has been used in the literature of the American Secular Union.');
   var f9 = Product(
-      id: 7,
+      id: 9,
       name: 'Dandelion',
       kingdom: 'Plantae',
       genus: 'Taraxacum',
@@ -149,7 +149,7 @@ void initDB() async {
       about:
           'Dandelions are harvested from the wild or grown on a small scale as a leaf vegetable. The leaves (called dandelion greens) can be eaten cooked or raw in various forms, such as in soup or salad. They are probably closest in character to mustard greens.');
   var f10 = Product(
-      id: 10,
+      id: 12,
       name: 'Passion',
       kingdom: 'Plantae',
       genus: 'Passiflora L.',
@@ -162,7 +162,7 @@ void initDB() async {
       about:
           'The Passion in passion flower refers to the passion of Jesus in Christian theology.In the 15th and 16th centuries, Spanish Christian missionaries adopted the unique physical structures of this plant, particularly the numbers of its various flower parts, as symbols of the last days of Jesus and especially his crucifixion');
   var f11 = Product(
-      id: 12,
+      id: 14,
       name: 'Snowdrop',
       kingdom: 'Plantae',
       genus: 'Galanthus',
@@ -174,7 +174,7 @@ void initDB() async {
       about:
           'In the UK and Ireland, many gardens open specially in February for visitors to admire the flowers. These displays may attract large numbers of sightseers. Some feature extensive displays of naturalised G. nivalis; others have more specialised collections of many species, forms and cultivars.');
   var f12 = Product(
-      id: 13,
+      id: 15,
       name: 'Sunflower',
       kingdom: 'Plantae',
       genus: 'Helianthus L.',
@@ -188,7 +188,7 @@ void initDB() async {
       about:
           'The seed and sprouts of the common sunflower (Helianthus annuus L.) have many medicinal uses. The edible seed and the sprout have an abundance of nutrients and biological activities and have many antioxidants such as phenolic acids, flavonoids and vitamins.');
   var f13 = Product(
-      id: 14,
+      id: 16,
       name: 'Tigerlily',
       kingdom: 'Plantae',
       genus: 'Lilium',
@@ -200,21 +200,21 @@ void initDB() async {
       about:
           'A case study of the successful treatment of a cat that ingested this particular species was published 2007.');
   var f14 = Product(
-      id: 15,
-      name: 'Tulip',
+      id: 5,
+      name: 'Crane Flower',
       kingdom: 'Plantae',
-      genus: 'Tulipa L.',
-      color: 'Red, pink, yellow, or white',
-      noofspecies: 150,
+      genus: '	Strelitzia',
+      color: 'brilliant orange sepals and three purplish-blue or white petals',
+      noofspecies: 5,
       foundin:
-          'Tulips originally were found in a band stretching from Southern Europe to Central Asia, but since the seventeenth century have become widely naturalised and cultivated',
+          'Native to the subtropical coastal areas of southern Africa, it has been cultivated worldwide, and it has been naturalized in North, Central, and South America, as well as in Portugal.',
       description:
-          'Tulipa (tulips) is a genus of spring-blooming perennial herbaceous bulbiferous geophytes, dying back after flowering to an underground storage bulb. Depending on the species, tulip plants can be between 10 and 70 cm (4 and 28 inches) high.',
+          "The plant grows to 2 m (6.6 ft) tall, with large, strong leaves 25–70 cm (9.8–27.6 in) long and 10–30 cm (3.9–11.8 in) broad, produced on petioles up to 1 m (39 in) long. The leaves are evergreen and arranged in two ranks, making a fan-shaped crown. The flowers stand above the foliage at the tips of long stalks. The hard, beak-like sheath from which the flower emerges is termed the spathe. This is placed perpendicular to the stem, which gives it the appearance of a bird's head and beak; it makes a durable perch for holding the sunbirds which pollinate the flowers. The flowers, which emerge one at a time from the spathe, consist of three brilliant orange sepals and three purplish-blue or white petals. Two of the blue or white petals are joined together to form an arrow-like nectary. When the sunbirds sit to drink the nectar, the petals open to cover their feet in pollen.",
       about:
-          'Tulip petals are edible flowers. The taste varies by variety and season, and is roughly similar to lettuce or other salad greens. Some people are allergic to tulips.Tulip festivals are held around the world, for example in the Netherlands and Spalding, England. There is also a popular festival in Morges, Switzerland.');
+          'It is also known as Bird of paradise. The bloom of the bird-of-paradise flower looks like the head of a bird with a long sharp beak and a decorative head-dress.Bird-of-paradise plants have an OPALS allergy scale rating of 1, and are considered "allergy-fighting"; they produce no airborne pollen.');
 
   var f15 = Product(
-      id: 8,
+      id: 10,
       name: 'Hibiscus',
       kingdom: 'Plantae',
       genus: '	Hibiscus L.',
@@ -227,11 +227,11 @@ void initDB() async {
       about:
           'The red hibiscus is the flower of the Hindu goddess Kali, and appears frequently in depictions of her in the art of Bengal, India, often with the goddess and the flower merging in form. The hibiscus is used as an offering to goddess Kali and Lord Ganesha in Hindu worship.The hibiscus is a national symbol of Haiti, and the national flower of nations including the Solomon Islands and Niue. Hibiscus syriacus is the national flower of South Korea, and Hibiscus rosa-sinensis is the national flower of Malaysia. Hibiscus brackenridgei is the state flower of Hawaii.');
   var f16 = Product(
-      id: 16,
+      id: 1,
       name: 'Balloon Flower',
       kingdom: 'Plantae',
       genus: 'Platycodon A.DC.',
-      color: 'Blue; White; Pink',
+      color: 'Blue, White, Pink',
       noofspecies: 1,
       foundin: 'East Asia (China, Korea, Japan, and the Russian Far East).',
       description:
