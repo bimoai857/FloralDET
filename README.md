@@ -20,6 +20,9 @@ Snowdrop,
 Sunflower,
 Tigerlily.
 
+# Implementation
+ A Convolutional Neural Network was trained using transfer learning. 
+27 different models were created by varying architectures (MobileNetV2,MobileNet & MobileNetV3), optimizers (Adagrad, Adam & RMSprop) and batch sizes. The optimal model was the selected for deployment.
 ## How to install the app ##
 
 1. Install Flutter and android studio.
