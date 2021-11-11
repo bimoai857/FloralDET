@@ -22,7 +22,7 @@ Tigerlily.
 
 # Implementation
  A Convolutional Neural Network was trained using transfer learning. 
-27 different models were created by varying architectures (MobileNetV2,MobileNet & MobileNetV3), optimizers (Adagrad, Adam & RMSprop) and batch sizes. The optimal model was the selected for deployment. An app was created using Flutter. The weight and labels were deployed to the app. One can select images both from a gallery or a camera. The code for training the model is named FloralDET.ipynb in the above code section.
+27 different models were created by varying architectures (MobileNetV2,MobileNet & MobileNetV3), optimizers (Adagrad, Adam & RMSprop) and batch sizes. The optimal model was the selected for deployment. An app was created using Flutter. The weight and labels were deployed to the app. One can select images both from a gallery or a camera. The code for training the model is named "FloralDET.ipynb" in the above code section.
 ## How to install the app ##
 
 1. Install Flutter and android studio.
