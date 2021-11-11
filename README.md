@@ -20,9 +20,7 @@ Snowdrop,
 Sunflower,
 Tigerlily.
 
-![asds](https://user-images.githubusercontent.com/68723052/123532858-a4e7f880-d730-11eb-9359-bf37be5828f2.PNG)
-
-#HOW TO INSTALL THE APP.
+##HOW TO INSTALL THE APP##
 
 1. Install Flutter and android studio.
 2. Install all dependencies related to it.
@@ -30,3 +28,7 @@ Tigerlily.
 4. Open the project in command line.
 5. Run an emulator or plug a real device.
 6. Run 'flutter run' in command line.
+
+
+![asds](https://user-images.githubusercontent.com/68723052/123532858-a4e7f880-d730-11eb-9359-bf37be5828f2.PNG)
+
