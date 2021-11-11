@@ -20,7 +20,7 @@ Snowdrop,
 Sunflower,
 Tigerlily.
 
-##HOW TO INSTALL THE APP##
+## HOW TO INSTALL THE APP ##
 
 1. Install Flutter and android studio.
 2. Install all dependencies related to it.
