@@ -1,6 +1,6 @@
 # FloralDET
 
-A mobile application to detect following 17 categories of flowers and get description about them.
+A mobile application to detect following 17 categories of flowers and get description of them.
 
 Alpine sea holly,
 Balloon flower,
